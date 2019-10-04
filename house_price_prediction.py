@@ -16,8 +16,8 @@ from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV, ElasticNetC
 from sklearn.metrics import mean_squared_error, make_scorer
 import matplotlib.pyplot as plt
 
-train_data = pd.read_csv('house_price_data/train.csv')
-test_data = pd.read_csv('house_price_data/test.csv')
+train_data = pd.read_csv('train.csv')
+test_data = pd.read_csv('test.csv')
 
 # It is recommended by the author to drop with lving area greater than 4000, due to the irregular sales that occurred.
 train_data = train_data[train_data.GrLivArea < 4000]
