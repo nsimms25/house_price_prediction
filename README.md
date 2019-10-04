@@ -1,4 +1,4 @@
-# house_price_prediction
+# house_price_prediction.py
 Predicting home prices in the Ames area.
 
 Predict sales prices and practice feature engineering, RFs, and gradient boosting
